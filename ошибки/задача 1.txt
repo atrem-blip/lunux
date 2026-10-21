@@ -1,5 +1,0 @@
-
-#!/bin/bash
-
-test -f /etc/passwd && echo "Файл есть" || echo "Файла нет"
-echo "Код возврата: $?"

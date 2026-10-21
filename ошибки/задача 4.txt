@@ -1,7 +1,0 @@
-#!/bin/bash
-set -euo pipefail
-
-# Попытка использовать неопределенную переменную
-echo "$UNDEFINED_VAR"
-
-trap 'echo "Переменная не задана"' ERR
